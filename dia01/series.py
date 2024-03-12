@@ -65,4 +65,3 @@ series_idades = pd.Series(idades, name="idades")
 series_idades
 
 # %%
-\xvz c 0
