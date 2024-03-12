@@ -33,5 +33,19 @@ df.index
 df.columns
 
 # %%
+# verificar memoria usada em memoria ram
+df.info(memory_usage='deep')
 
-df.info()
+# %%
+df.dtypes
+
+# %%
+
+df.describe()
+
+# %%
+
+df.head(2)
+
+# %%
+df.tail(2)
