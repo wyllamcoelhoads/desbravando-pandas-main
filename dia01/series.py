@@ -65,3 +65,5 @@ series_idades = pd.Series(idades, name="idades")
 series_idades
 
 # %%
+
+series_idades[0]
