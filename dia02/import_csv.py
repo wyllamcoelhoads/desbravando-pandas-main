@@ -51,5 +51,5 @@ df_customers = df_customers.rename(columns= {"Names": "Nome", "Points": "Pontos"
 df_customers
 
 # %%
-df_customers.rename(columns={"UUDI":"Id"}, inplace=True)
+df_customers.rename(columns={"UUID":"Id"}, inplace=True)
 df_customers
