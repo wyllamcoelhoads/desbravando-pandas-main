@@ -34,3 +34,9 @@ df.fillna({"idade": df["idade"].mean()})
 df.fillna({"renda": df["renda"].mean()})
 
 # %%
+# usando o dropna, remove as linhas com na
+# all e todas as linha devem ser nan e any pelo menos uma 
+df.dropna(subset=["idade", "renda"], how='all') 
+
+# %% 
+df.dropna(axis=1, thresh=2)
